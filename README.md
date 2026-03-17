@@ -8,6 +8,8 @@
 
 Built with a modular, maintainable architecture aligned with robust automation engineering practices.
 
+![PyDiskWatch HTML Report Preview](docs/preview.png)
+
 ## Features
 - **Disk Monitoring**: Live disk usage, partition metrics, and I/O status using `psutil`, displayed beautifully via `rich`.
 - **Log Parsing**: Scrapes `/var/log/syslog` (Linux) or Event Viewer (Windows using `wevtutil`) for storage and disk errors.
