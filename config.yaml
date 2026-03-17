@@ -1,0 +1,16 @@
+thresholds:
+  disk_usage_percent: 80   # Alert when any partition exceeds this
+  free_space_gb: 5         # Alert when free space falls below this
+alerts:
+  email:
+    enabled: false
+    smtp_host: smtp.gmail.com
+    smtp_port: 465
+    sender: your@email.com
+    receiver: your@email.com
+    password: ""           # Use env var PDISKWATCH_PASS in production
+  desktop:
+    enabled: true
+report:
+  output_dir: ./reports
+  formats: [html, csv]
